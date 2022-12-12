@@ -16,14 +16,14 @@ const Navbar = () => {
         <Flex alignItems={"center"} p={5} justifyContent={'space-around'} flexWrap={'wrap'}>
           <Box p={3} marginBottom={5}>
             <Image
-              src="/images/logo_white.svg"
+              src="/images/logo.svg"
               width={200}
               height={200}
               alt="compant logo"
             ></Image>
           </Box>
           <Box textAlign={'center'}>
-            <Box width={200} height={'auto'} p={2} bg="white" color={'black'} borderRadius={20}>
+            <Box width={200} height={'auto'} p={2} bg="white" color={'black'} borderRadius={20} boxShadow='dark-lg'>
               Sign up
             </Box>
           </Box>

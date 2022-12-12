@@ -15,7 +15,7 @@ const HomePage = () => {
       <Navbar />
       <Container maxW="container.lg" height={"auto"} marginBottom={5}>
         <Flex alignItems={"center"} justifyContent={"center"} flexWrap={"wrap"}>
-          <Box fontWeight={"semibold"} color={"whiteAlpha.900"}>
+          <Box fontWeight={"semibold"}>
             <Text>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque{" "}
               <br></br> autem voluptatibus accusamus, magnam quod illum quos!
